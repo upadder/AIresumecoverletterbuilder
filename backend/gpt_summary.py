@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = "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"
+openai.api_key = "PUT your own api key"
 
 def get_improved_exp(description_combined, seek_jd):
     print(description_combined)
