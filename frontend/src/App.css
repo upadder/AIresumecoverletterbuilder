@@ -1,0 +1,154 @@
+.resume-builder {
+  font-family: Arial, sans-serif;
+  width: 60%;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 2px 2px 12px #aaa;
+}
+
+.resume-builder h1 {
+  text-align: center;
+}
+
+.resume-builder h2 {
+  margin-top: 20px;
+}
+
+.resume-builder input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px soliPd #e0e0e0;
+}
+
+.resume-builder button {
+  margin-top: 20px;
+}
+
+/* */
+body {
+  background-color: #f0f5f5;
+  font-family: "DM Sans", sans-serif;
+}
+.main {
+  margin: 10px 32px;
+}
+.choose-output {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  margin-bottom: 30px;
+  color: #2c3e50;
+  align-items: center;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+}
+.choose-output button {
+  /* height: 40px; */
+  padding: 10px;
+  font-family: "DM Sans", sans-serif;
+  background-color: #d2e4ff;
+  color: #2c3e50;
+  font-size: 15px;
+  border: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.choose-output button:hover {
+  background-color: #d8e7fc;
+}
+
+.choose-output button:focus {
+  background-color: #9cc0f7;
+}
+.full-page {
+  display: flex;
+  margin: auto;
+}
+.input-section {
+  color: #2c3e50;
+  width: 50%;
+  margin-right: 8px;
+}
+.output-section {
+  width: 50%;
+  color: #2c3e50;
+  margin-left: 8px;
+  text-align: center;
+  height: 100%;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 2px;
+  font-size: 15px;
+  color: #2c3e50;
+  border: 1px solid #2c3e50;
+  background-color: #f0f5f5;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.input-group {
+  margin-bottom: 8px;
+}
+button[type="submit"]:hover {
+  background-color: #d8e7fc;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #d2e4ff;
+  color: #123693;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.cardContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.upload-pdf-button {
+  padding: 10px;
+  font-family: "DM Sans", sans-serif;
+  background-color: #d2e4ff;
+  color: #2c3e50;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-block; /* To ensure proper spacing and alignment */
+  margin-left: 10px; /* To keep consistent spacing with other buttons */
+}
+
+.upload-pdf-button:hover {
+  background-color: #d8e7fc;
+}
+
+.upload-pdf-button:focus {
+  background-color: #9cc0f7;
+}
+/* progress bar  */
+
+.progress-bar-label {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  color: black; /* or any color you prefer */
+}
+
+.textarea-job-description {
+  width: 100%; /* or you can use px, em, etc. */
+  max-width: 800px; /* optional, if you want to limit the maximum width */
+}
